@@ -1,0 +1,244 @@
+@font-face {
+    font-family: fontLight;
+    src: url(/fonts/futura/futur.ttf);
+}
+
+@font-face {
+    font-family: fontBold;
+    src: url(/fonts/futura/Futura\ Bold\ font.ttf);
+}
+@font-face {
+    font-family: brandonBold;
+    src: url(/fonts/brandon/Brandon_bld.otf);
+}
+@font-face {
+    font-family: brandonLight;
+    src: url(/fonts/brandon/Brandon_light.otf);
+}
+
+body {
+    background: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+    z-index: 5;
+    background-color: #fff;
+    box-shadow: 0 2px 2px -2px rgba(0,0,0,0.2);
+}
+
+.myname {
+    position: absolute;
+    top: 20px;
+    left: 30px;
+    color: #000;
+    text-decoration: none;
+    font-family: brandonBold;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+}
+
+#bars {
+    position: absolute;
+    top: 22px;
+    right: 25px;
+    color: #7f7d7a;
+    font-size: 15px;
+}
+
+#bars:hover {
+    color: #2c4ae0;
+}
+
+.menu-slide {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 20;
+    background-color: #fff;
+    transition: 0.5s;
+    padding-top: 60px;
+    overflow-x: hidden;
+}
+
+.menu-slide a{
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 16px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+    font-family: brandonLight;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+.menu-slide a:hover {
+    color: #2c4ae0;
+}
+
+.menu-slide .menu-x {
+    padding: 0px 0px 0px 20px;
+    margin-top: 0px;
+    position: absolute;
+    top: 15px;
+    right: 22px;
+    margin-left: 50px;
+    font-size: 22px;
+    color: #000;
+}
+
+.menu-overlay {
+    width: 0;
+    background: #000;
+    opacity: 0.7;
+    height: 100%;
+    z-index: 15;
+    top: 50px;
+    left: 0;
+    position: absolute;
+
+}
+
+
+
+.home {
+    height:100vh;
+    width: 80%;
+    text-align: center;
+    margin: auto;
+    
+}
+
+.home-case {
+    width: 300px;
+    height: 90px;
+    margin: 0;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform:translate(-50%, -50%);
+}
+
+.home-box {
+    display: inline-block;
+   background-color: #fff;
+   border: 1.4px solid #056d6c;
+   width: 300px;
+   height: 150px;
+   margin: 0;
+   color: #056d6c;
+   font-size: 10px;
+   letter-spacing: 3px;
+}
+
+.home-button {
+    text-decoration: none;
+    display: inline-block;
+    font-family: brandonBold;
+    font-size: 12px;
+    background-color: #d67600;
+    color: #fff;
+    padding: 2px;
+    margin: 12px;
+    margin-top: 20px;
+}
+
+.typewriter h1, .typewriter-1 h1, .typewriter-2 h1 {
+    overflow: hidden;
+    white-space: nowrap;
+    margin: 0 auto;
+    animation: 
+        typing 3.5s steps(40, end),
+        blink-caret .75s step-end infinite;
+    animation-fill-mode: both;
+}
+
+@keyframes typing {
+    from {width: 0}
+    to {width: 100%}
+}
+
+@keyframes blink-caret {
+    from, to {border-color: transparent}
+    50% {border-color: #ffa550}
+}
+
+.typewriter h1 {
+    margin-top: 40px;
+}
+
+.typewriter-1 h1 {
+    animation-delay: 2s;
+}
+
+.typewriter-2 h1 {
+    animation-delay: 4s;
+}
+
+a {
+    text-decoration: none;
+}
+
+.footer {
+    color: #333333;
+    background-color: #fff; 
+}
+
+.grey-links {
+    background-color: #fafafa;
+    height: 100px;
+    padding-top: 55px;
+    padding-left: 8%;
+}
+
+.address-block {
+    text-align: right;
+    background-color: #fff;
+    margin: auto;
+    height: 30px;
+    align-content: right;
+}
+
+#address-logo {
+    color: #333333;
+    font-size: 10px;
+    padding: 10px;
+    padding-left: 20px;
+}
+
+#address-logo:hover {
+    color:#2c4ae0;
+}
+
+.pages {
+    text-transform: uppercase;
+    color: #056d6c;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    margin-bottom: 8px;
+    line-height: 18px;
+    margin-top: -30px;
+}
+
+.grey-link {
+    color: #333333;
+    font-family: brandonLight;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 30px;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0);
+}
+
+.grey-link:hover {
+    color:#2c4ae0;
+}
