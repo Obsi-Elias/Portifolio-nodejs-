@@ -1,3 +1,7 @@
+* {
+    font-family:'Times New Roman', Times, serif;
+}
+
 @font-face {
     font-family: fontLight;
     src: url(/fonts/futura/futur.ttf);
@@ -27,7 +31,7 @@ body {
     top: 0;
     left: 0;
     right: 0;
-    height: 50px;
+    height: 30px;
     z-index: 5;
     background-color: #fff;
     box-shadow: 0 2px 2px -2px rgba(0,0,0,0.2);
@@ -35,7 +39,7 @@ body {
 
 .myname {
     position: absolute;
-    top: 20px;
+    top: 5px;
     left: 30px;
     color: #000;
     text-decoration: none;
@@ -46,7 +50,7 @@ body {
 
 #bars {
     position: absolute;
-    top: 22px;
+    top: 7px;
     right: 25px;
     color: #7f7d7a;
     font-size: 15px;
@@ -65,7 +69,7 @@ body {
     z-index: 20;
     background-color: #fff;
     transition: 0.5s;
-    padding-top: 60px;
+    padding-top: 40px;
     overflow-x: hidden;
 }
 
@@ -89,7 +93,7 @@ body {
     padding: 0px 0px 0px 20px;
     margin-top: 0px;
     position: absolute;
-    top: 15px;
+    top: 2px;
     right: 22px;
     margin-left: 50px;
     font-size: 22px;
@@ -102,7 +106,7 @@ body {
     opacity: 0.7;
     height: 100%;
     z-index: 15;
-    top: 50px;
+    top: 30px;
     left: 0;
     position: absolute;
 
@@ -241,4 +245,79 @@ a {
 
 .grey-link:hover {
     color:#2c4ae0;
+}
+
+.contact-container {
+    width: 60%;
+    margin: auto;
+    color: #056d6c;
+}
+
+.contact-title {
+    margin-top: 45px;
+    margin-bottom: 10px;
+    font-family: brandonBold;
+    font-size: 25px;
+    color: #1d999d;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.contact-form {
+    font-family: fontLight;
+    font-size: 15px;
+}
+
+.contact-label {
+    text-align: left;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+input[type=text], select {
+    width: 90%;
+    font-size: 15px;
+    font-family: fontLight;
+    background-color: #f5f5f5;
+    border: 0;
+    padding: 6px 7px;
+    margin: 5px 5px;
+    border-bottom: 2px solid #e0e0e0;
+    margin-left: 0;
+}
+
+input[type=submit], select {
+    background-color: #1d9999;
+    color: #fff;
+    border: 0;
+    width: 95%;
+    margin: 5px 0;
+    margin-bottom: 60px;
+    -webkit-border-radius: 0px;
+    -webkit-appearance: none;
+    cursor: pointer;
+    appearance: initial;
+    border-radius: 5px;
+}
+
+input[type=submit]:hover {
+    background-color: #f7f7f7;
+    color: #444444;
+}
+
+input:focus, textarea:focus {
+    outline: none;
+}
+
+#note {
+    width: 93%;
+}
+
+#contact-thankyou {
+    display: none;
+}
+
+#submitted {
+    display: none;
 }
