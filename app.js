@@ -4,6 +4,9 @@ const nodemailer = require('nodemailer'); // used to send gmail
 const path = require('path');               // used to define the path of directory
 const {engine} = require('express-handlebars');  // To handle dynamic html file with express.js
 const bodyParser = require('body-parser');  // body-parser is a Node.js library that parses incoming HTTP request bodies and makes them available as objects in the req.body property
+const project = require('./projects.json'); // importing the project json file
+
+
 
 
 const app = express();
@@ -15,7 +18,6 @@ const transporter = nodemailer.createTransport({
         pass: process.env.PASSWORD
     }
 });
-
 
 
 app.use(express.static(path.join(__dirname, "public")));
@@ -36,7 +38,11 @@ app.get('/', (request, response) => {
 });
 
 app.get('/work', (request,response) => {
-    response.render("work.hbs");
+    response.render("work.hbs", {project:project});
+});
+
+app.get('/about',(request, response, next) => {
+    response.render('about.hbs', {data:data});
 });
 
 app.get('/contact', (request, response) => {

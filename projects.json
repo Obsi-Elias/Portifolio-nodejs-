@@ -1,0 +1,44 @@
+{
+    "1":
+{
+    "id": "1",
+    "title": "Post Malone",
+    "category": "Web Design",
+    "description": "A simple artist website to promote the release at Post Malone's album Beerbongs & Bentleys.",
+    "sitename": "Artist Website",
+    "url": "https://greve-chocolatine-34680.herokuapp.com",
+    "deliverables": ["Artist Website", "Promotional Page"],
+    "tools": ["JavaScript", "HTML & CSS"],
+    "coverphoto": "/cover/cover_posty.png",
+    "bannerphoto": "/public/post/banner_post_2.png",
+    "partial": "post"
+},
+    "2":
+{
+    "id": "2",
+    "title": "Caption B",
+    "category": "Web Design",
+    "description": "Create an online strore for the new fashion collection at file director, Be El Be, who is best known for directing music video fo Young Thug, such as 'Best Friend', 'Power', and 'With That'.",
+    "sitename": "Caption B Online Shop",
+    "url": "www.captionb.com",
+    "deliverables": ["Online Store"],
+    "tools": ["Node.js", "HTML & CSS", "Stripe Payments"],
+    "coverphoto": "/cover/cover_captionb_3.png",
+    "bannerphoto": "/public/post/banner_captionb.png",
+    "partial": "captionb"
+},
+    "3":
+{
+    "id": "3",
+    "title": "Snap Lenses",
+    "category": "Virtual Reality",
+    "description": "Created a snap experiences that launched with upward of 2 millions views for recording artists, such as Halsey, Logic, and Olivia O'Brien",
+    "sitename": "Artist Website",
+    "url": "https://lensstudio.snapchat.com/creater/0NNDsaupCcLtQPB9WRJPww",
+    "deliverables": ["Artist Website", "Promotional Page"],
+    "tools": ["Blender","JavaScript", "Snap Lens Studio","Photoshop"],
+    "coverphoto": "/cover/cover_snap_2.png",
+    "bannerphoto": "/public/post/banner_snap_4.png",
+    "partial": "snap"
+}
+}

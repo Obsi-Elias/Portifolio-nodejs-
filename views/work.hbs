@@ -1,9 +1,49 @@
+
 <!DOCTYPE html>
 <html lang="en">
  {{> main}}
 <body>
-    <div style="margin-top:300px">
-        <p height=""> This is the work page</p>
+
+    <div class="projects">
+        <div class="projects-title">Recent Work</div>
+        <div class="projects-categories">
+            <div class="category" onclick="showAll()"> All </div>
+            <div class="category" onclick="showCreative()">creative </div>
+            <div class="category" onclick="showWeb()">Web</div>
+        </div>
     </div>
+
+{{#each project}}
+    <a href="/projects.json/{{id}}" class="work-obj" id="{{id}}">
+        <img src="{{coverphoto}}" class="work-img" />
+        <div class="work-overlay"></div>
+        <div class="work-title">{{title}}</div>
+    </a>
+{{/each}}
+
+
+{{>footer}}
+
+<script>
+        const one = document.getElementById("1");
+        const two = document.getElementById("2"); 
+        const three = document.getElementById("3");
+
+    function showCreative() {
+        one.style.display="none";
+        two.style.display="none";
+        three.style.display="inline-block";
+    }
+    function showWeb() {
+           one.style.display="inline-block";
+        two.style.display="inline-block";
+        three.style.display= "none";
+    }
+    function showAll() {
+        one.style.display="inline-block";
+        two.style.display="inline-block";
+        three.style.display= "inline-block";
+    }
+</script>
 </body>
 </html>
