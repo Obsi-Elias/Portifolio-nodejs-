@@ -10,7 +10,7 @@
     "deliverables": ["Artist Website", "Promotional Page"],
     "tools": ["JavaScript", "HTML & CSS"],
     "coverphoto": "/cover/cover_posty.png",
-    "bannerphoto": "/public/post/banner_post_2.png",
+    "bannerphoto": "/banner/banner_post_2.png",
     "partial": "post"
 },
     "2":
@@ -24,7 +24,7 @@
     "deliverables": ["Online Store"],
     "tools": ["Node.js", "HTML & CSS", "Stripe Payments"],
     "coverphoto": "/cover/cover_captionb_3.png",
-    "bannerphoto": "/public/post/banner_captionb.png",
+    "bannerphoto": "/banner/banner_captionb.png",
     "partial": "captionb"
 },
     "3":
@@ -38,7 +38,7 @@
     "deliverables": ["Artist Website", "Promotional Page"],
     "tools": ["Blender","JavaScript", "Snap Lens Studio","Photoshop"],
     "coverphoto": "/cover/cover_snap_2.png",
-    "bannerphoto": "/public/post/banner_snap_4.png",
+    "bannerphoto": "/banner/banner_snap_4.png",
     "partial": "snap"
 }
 }

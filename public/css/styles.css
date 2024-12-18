@@ -330,7 +330,7 @@ input:focus, textarea:focus {
 
 .projects-categories {
     margin-top: 5px;
-    cursor:pointer;
+    cursor: pointer;
 }
 
 .projects-title {
@@ -399,4 +399,160 @@ input:focus, textarea:focus {
     letter-spacing: 1px;
     font-family: brandonLight;
     text-transform: uppercase;
+}
+
+/* Project page i.e each project page styling */
+
+.project-banner {
+    margin-top: 30px;
+    width: 100%;
+    font-family: brandonLight;
+    color: #444444;
+    text-transform: uppercase;
+    background-size: cover;
+}
+
+.project-banner-white {
+    border: 0.1px solid #fff;
+    margin-left: none;
+    border-right: none;
+    width: 100%;
+    padding-bottom: 5%;
+    background-color: rgb(255,255,255,0.6);
+}
+
+.project-title {
+    width: 50%;
+    position: relative;
+    left: 10%;
+    margin-top: 60px;
+    content: calc(margin-bottom=0);
+}
+
+.project-name, .project-category {
+    letter-spacing: 2px;
+}
+
+.project-name {
+    font-size: 16px;
+    top: 90px;
+}
+
+.project-block {
+    margin-left: 10%;
+    width: 65%;
+    font-family: brandonLight;
+    color: #818181;
+    margin-bottom: 30px;
+}
+
+.project-description {
+    margin-top: 20px;
+    font-size: 12px;
+    line-height: 28.8px;
+}
+
+.project-web {
+    margin-top: 40px;
+}
+
+#project-arrow {
+    float: left;
+    font-size: 24px;
+    padding-top: 1px;
+}
+
+.project-web-name {
+    padding-left: 20px;
+    font-family: brandonBold;
+    font-size: 17px;
+    color: #000;
+}
+
+.project-deliv-title, .project-tools-title {
+    padding-left: 20px;
+    font-family: brandonBold;
+    font-size: 14px;
+    color: #000;
+    text-transform: uppercase;
+}
+
+.project-deliv-title {
+    margin-top: 30px;
+}
+
+.project-tools-title {
+    margin-top: 20px;
+}
+
+.project-deliverables, .project-tools {
+    display: block;
+    margin-top: 5px;
+    font-size: 13px;
+}
+  
+/* Styling the partial page of each project*/
+.partial-page {
+    margin-left: 10%;
+    font-size: 14px;
+    font-family: brandonLight;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 30px;
+    margin-top: 115px;
+}
+
+.project-page-center {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+#posty-home {
+    margin-bottom: 100px;
+    padding-bottom: 198%;
+    background-image: url("/cover/cover_posty.png");
+    background-size: 90%;
+}
+
+#captionb-home {
+    padding-bottom: 240%;
+    background-image: url("/cover/cover_captionb_3.png");
+    background-size: 90%;
+}
+
+#captionb-product {
+    margin-bottom: 100px;
+    padding-bottom: 162%;
+    background-image: url("/partialImages/captionb.png");
+    background-size: 100%;
+}
+
+#snap-home {
+    margin-bottom: 100px;
+    padding-bottom: 198%;
+    background-image: url("/cover/cover_snap_2.png");
+    background-size: 90%;
+} 
+
+.lens {
+    display: inline-block;
+    margin-right: 7%;
+    width: 25%;
+    margin-bottom: 90px;
+}
+
+.snap-vid {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.lens-name {
+    font-family: brandonBold;
+    text-transform: uppercase;
+    text-align: left;
+    color: #656565;
+    letter-spacing: 2px;
+    font-size: 12px;
+    margin-top: 20px;
 }

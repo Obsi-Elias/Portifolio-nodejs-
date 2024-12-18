@@ -8,13 +8,13 @@
         <div class="projects-title">Recent Work</div>
         <div class="projects-categories">
             <div class="category" onclick="showAll()"> All </div>
-            <div class="category" onclick="showCreative()">creative </div>
-            <div class="category" onclick="showWeb()">Web</div>
+            <div class="category" onclick="showCreative()"> creative </div>
+            <div class="category" onclick="showWeb()"> Web </div>
         </div>
     </div>
 
 {{#each project}}
-    <a href="/projects.json/{{id}}" class="work-obj" id="{{id}}">
+    <a href="/projects/{{id}}" class="work-obj" id="{{id}}">
         <img src="{{coverphoto}}" class="work-img" />
         <div class="work-overlay"></div>
         <div class="work-title">{{title}}</div>
