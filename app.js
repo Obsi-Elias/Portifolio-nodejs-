@@ -39,7 +39,7 @@ app.get('/', (request, response) => {
     response.render("home.hbs",{title: 'Hello, Handlebars'});
 });
 
-app.get('/work', (request,response) => {
+app.get('/projects', (request,response) => {
     response.render("work.hbs", {project:project});
 });
 
@@ -61,7 +61,6 @@ app.get('/contact', (request, response) => {
 
 
 app.get('/contact', (request, response, next) => {
-
     response.render("contact",{submitted: "yes"});
 });
 

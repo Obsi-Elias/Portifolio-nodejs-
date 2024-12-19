@@ -517,14 +517,14 @@ input:focus, textarea:focus {
 
 #captionb-home {
     padding-bottom: 240%;
-    background-image: url("/cover/cover_captionb_3.png");
+    background-image: url("/partialImages/captionb/cover_captionb_3.png");
     background-size: 90%;
 }
 
 #captionb-product {
     margin-bottom: 100px;
     padding-bottom: 162%;
-    background-image: url("/partialImages/captionb.png");
+    background-image: url("/partialImages/captionb/captionb_0.png");
     background-size: 100%;
 }
 
@@ -555,4 +555,93 @@ input:focus, textarea:focus {
     letter-spacing: 2px;
     font-size: 12px;
     margin-top: 20px;
+}
+
+
+/* Styling the about page */
+.about-intro {
+    width: 85%;
+    margin: auto;
+    color:#056d6c;
+}
+
+.about-header {
+    font-size: 23px;
+    font-family: brandonLight;
+    text-transform: uppercase;
+    margin-top: 80px;
+    text-align: center;
+}
+
+
+.about-headshot {
+    width: 70%;
+    padding-bottom: 70%;
+    background-image: url("/about/profile_headshot.png");
+    background-size: cover;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 65px;
+}
+
+.about-description {
+    font-family: brandonLight;
+    margin-top: 20px;
+    font-size: 14px;
+    line-height: 20px;
+    color: #444444;
+}
+
+.about-whatido {
+    font-family: brandonBold;
+    text-transform: uppercase;
+    color:#056d6c;
+    margin-top: 32px;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+}
+
+.about-what {
+    font-family: brandonLight;
+    margin-top: 1px;
+    font-size: 14px;
+    line-height: 28px;
+    color: #444444;
+}
+
+.about-next {
+    height: 160px;
+    margin-top: 25px;
+    background-color: #e2e2e2;
+    color: #444444;
+    text-align: center;
+}
+
+.about-ready {
+    font-size: 20px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-family: brandonBold;
+    padding-top: 35px;
+    padding-bottom: 12px;
+}
+
+.about-ready:hover {
+    color: #056d6c;
+}
+
+.about-chat {
+    border: 4px solid #fff;
+    padding: 5px 5px;
+    margin-top: 50px;
+    text-transform: uppercase;
+    font-family: brandonBold;
+    letter-spacing: 3px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.about-chat:hover {
+    color: #e2e2e2;
+    background-color: #fff;
 }
